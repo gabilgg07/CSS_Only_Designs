@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Only Design</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 80%;
+        margin: 20px auto;
+      }
+      ul,
+      ol,
+      li {
+        list-style: none;
+      }
+
+      a,
+      a:hover {
+        text-decoration: none;
+      }
+
+      .css_only_links li {
+        margin-bottom: 10px;
+      }
+      .css_only_links li a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #2c7c0d;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 6px 2px #ffffff90;
+        transition: background-color 0.4s;
+        border: 2px solid black;
+      }
+
+      .css_only_links li a:hover {
+        background-color: #072b4d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="css_only_links">
+        <li>
+          <a href="christmas_tree/index.html">Christmas Tree</a>
+        </li>
+        <li>
+          <a href="dark&light_toggle_btn/index.html">Dark & Light</a>
+        </li>
+        <li>
+          <a href="digital_clock/index.html">Digital Clock</a>
+        </li>
+        <li>
+          <a href="glowing_cube/index.html">Glowing Cube</a>
+        </li>
+        <li>
+          <a href="glowing_gradient_border/index.html"
+            >Glowing Gradient Border</a
+          >
+        </li>
+        <li>
+          <a href="glowing_ring/index.html">Glowing Ring</a>
+        </li>
+        <li>
+          <a href="ring_of_fire/index.html">Ring of Fire</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
